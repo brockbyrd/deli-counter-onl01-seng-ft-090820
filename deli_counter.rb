@@ -11,7 +11,7 @@ def line(array)
       if index.length != (array.length - 1)
         phrase += "#{index + 1}. #{name}"
       else
-        message += "#{index + 1}. #{name}"
+        phrase += "#{index + 1}. #{name}"
       end
 end
 
