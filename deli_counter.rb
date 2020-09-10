@@ -8,7 +8,7 @@ def line(array)
     puts "The line is currently empty."
   else
     array.each_with_index { |name, index|
-      if index.length != (array.length - 1)
+      if index != (array.length - 1)
         phrase += "#{index + 1}. #{name}"
       else
         phrase += "#{index + 1}. #{name}"
