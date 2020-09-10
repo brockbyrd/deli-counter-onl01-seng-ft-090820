@@ -8,8 +8,11 @@ def line(array)
     "The line is currently empty."
   else
     array.each_with_index |name, index|
-      if index.length
-  
+      if index.length != (array.length - 1)
+        phrase += "#{index + 1}. #{name}"
+      else
+        message += "#{index + 1}. #{name}"
+      end
 end
 
 def take_a_number(array, name)
