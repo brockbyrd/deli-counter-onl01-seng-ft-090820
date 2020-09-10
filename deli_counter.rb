@@ -9,9 +9,9 @@ def line(array)
   else
     array.each_with_index { |name, index|
       if index != (array.length - 1)
-        phrase += "#{index + 1}. #{name}"
+        phrase += "#{index + 1} . #{name}"
       else
-        phrase += "#{index + 1}. #{name}"
+        phrase += "#{index + 1} . #{name}"
       end
     }
     puts phrase
