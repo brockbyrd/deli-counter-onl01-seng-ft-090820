@@ -5,7 +5,7 @@ def line(array)
   phrase = "The line is currently: "
   
   if array.length <= 0
-    "The line is currently empty."
+    puts "The line is currently empty."
   else
     array.each_with_index { |name, index|
       if index.length != (array.length - 1)
