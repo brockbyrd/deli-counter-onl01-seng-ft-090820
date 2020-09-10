@@ -28,4 +28,5 @@ def now_serving(array)
     "The line is currently empty."
   else
     "Now serving #{array.shift}."
+  end
 end
